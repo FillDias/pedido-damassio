@@ -45,7 +45,7 @@ export function ProductForm() {
     }
 
     const msg = formatMessage(cart, paymentMethod);
-    const numero = "5527999999999"; // SEU número com DDD
+    const numero = "5527999181446"; // SEU número com DDD
     const url = `https://wa.me/${numero}?text=${msg}`;
 
     window.open(url, "_blank");
